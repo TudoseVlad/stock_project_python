@@ -1,3 +1,5 @@
+2 Python scripts made to extracting and filter csv files and one for predictions.
+
 **_For Extractor:_**
 
 Extractor can process multiple csv file and sort the stock data by the date
