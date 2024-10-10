@@ -13,7 +13,7 @@ def find_max(data):
 
 def find_2nd_max(data):
     index = find_max(data)
-    max_price = data[0].price - 1  
+    max_price = data[0].price * -1  
     name = ""
     for val in data:
         if max_price < val.price and val.price != data[index].price:
